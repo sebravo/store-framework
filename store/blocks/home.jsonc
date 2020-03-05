@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card"
+      "info-card#button-right",
+      "info-card#button-left"
     ]
   },
   "rich-text": {
@@ -11,15 +12,28 @@
       "textPosition": "RIGHT"
     }
   },
-  "info-card": {
+  "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
-      "headline": "Vintage Pink",
-      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "headline": "Lorem Ipsum",
+      "subhead": "Siempre estoy cansado y tengo hanbre. Todo el tiempo",
       "callToActionMode": "button",
-      "callToActionText": "Explore",
+      "callToActionText": "VER MAS",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left":{
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Lorem Ipsum",
+      "subhead": "Siempre estoy cansado y tengo hanbre. Todo el tiempo",
+      "callToActionMode": "button",
+      "callToActionText": "VER MAS",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
     }
