@@ -4,14 +4,12 @@
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "info-card#rethink",
-      "rich-text#deletar",
-      "flex-layout.col",
       "shelf"
     ]
   },
   "flex-layout.row":{
     "children": [
+      "info-card#rethink",
       "flex-layout.col"
     ]
   },
