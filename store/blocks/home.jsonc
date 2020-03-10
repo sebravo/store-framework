@@ -8,7 +8,8 @@
       "slider-layout#home",
       "responsive-layout",
       "rich-text#desktop",
-      "rich-text#mobile"
+      "rich-text#mobile",
+      "responsive-layout.desktop#desktop"
     ]
   },
   "flex-layout.row":{
@@ -77,16 +78,9 @@
       "blockClass": "metal"
     }
   },
-
-  "responsive-layout.desktop#desktop": {
-    "children": [
-      "rich-text#desktop",
-      "image#desktop"
-    ]
-  },
   
   "responsive-layout.mobile#mobile": {
-    "children": ["rich-text#mobile"]
+    //"children": ["rich-text#mobile"]
   },
   
   "rich-text#desktop": {
@@ -123,5 +117,13 @@
       } ,
       "alt": "Coffee Makers Collection"
     }
-  }
+  },
+
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "rich-text#desktop",
+      "image#desktop",
+      "image#mobile"
+    ]
+  },
 }
