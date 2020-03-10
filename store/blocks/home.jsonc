@@ -9,7 +9,8 @@
       "responsive-layout",
       "rich-text#desktop",
       "rich-text#mobile",
-      "responsive-layout.desktop#desktop"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
   "flex-layout.row":{
@@ -80,7 +81,7 @@
   },
   
   "responsive-layout.mobile#mobile": {
-    //"children": ["rich-text#mobile"]
+    "children": ["rich-text#mobile"]
   },
   
   "rich-text#desktop": {
