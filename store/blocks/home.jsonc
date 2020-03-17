@@ -7,7 +7,9 @@
       "shelf",
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.mobile#mobile",
+      "rich-text#mobile",
+      "rich-text#desktop"
     ]
   },
   
